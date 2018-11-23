@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+body {
+	background-color: white;
+}
+
+button, .bb {
+	color: white;
+	background-color: #42f4ad;
+	margin-left: 15px;
+}
+
+h1, .navbar-brand, ul > li > a  {
+	color: white;
+	font-family: 'Coming Soon', cursive;
+}
+
+h2, h3, h4{
+	font-family: 'Coming Soon', cursive;
+}
+
+h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+p, ul > li {
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+figcaption {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/home.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* Main nav */
+.navbar {
+	background-color: #42f4ad;
+}
+
+
+/* Navbar buttons still */
+.navbar-default .navbar-nav > li > a{
+	color: black;
+	background-color: #42f4ad; 
+}
+
+/* Navbar buttons  hover */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #32c188;
+	background-color: #42f4ad;
+}
+
+
+/* Navbar active button */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #42f4ad;	
+}
+
+/* Dropdown menu active link */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	color: black;
+	background-color: #42f4ad;
+}
+
+/* Dropdown menu hover link */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #42f4ad;
+	background-color: white;
+}
+
+/* Navbar toggle button active */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: /* #fffb9b; */	white;
+}
+
+#myScroll {
+    min-height:0px;
+}
+.affix {
+        position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #32c188;
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+}
+
+/* Home Page ID Attributes*/
+#aboutHeader {
+	background-image: url("../images/about.jpg");
+	background-color: #42f4ad;
+	height:100%;
+}
+
+#accessHeader {
+	background-image: url("../images/access.jpg");
+	background-color: #42f4ad;
+	height:100%;
+}
+
+#cjHeader {
+	background-image: url("../images/DSC_1121.jpg");
+	background-color: #42f4ad;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#cjTitle, #accessTitle, #policyTitle, #authorTitle {
+	padding-top: 150px;
+}
+
+#homeHeader {
+	padding-top: 30px;
+	padding-bottom: 0px;
+	height:100%;
+	background-color: #42f4ad;
+}
+
+#homeLanding {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 500px;
+	margin: 0px;
+}
+
+#policyHeader {
+	background-image: url("../images/policy.png");
+	background-color: #42f4ad;
+	height:100%;
+}
+
+#scarletHeader {
+	background-image: url("../images/Scarlet_2.png");
+	height:100%;
+	background-position: top;
+	background-color: #42f4ad;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#scarTitle {
+	padding-top: 150px;
+}
+
+#extra, #extra2, #extra3, #extra4, #extra5 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color:#42f4ad;
+}
+
+#jumbo, #jumbo2, #jumbo3, #jumbo4, #jumbo5 {
+	background-color: #42f4ad;
+	font-family: Verdana;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.injumbo {
+	margin: 70px;
+	padding-left: 50px;
+}
+
+#title {
+	padding-top: 50px;
+	padding-left: 550px;
+}
+
+#subtitle {
+	padding-top: 0px;
+	padding-left: 350px;
+	color: white;
+}
+
+figure {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Access Page ID Attributes*/
+#dbvi, #ods, #sign {
+	padding-top: 50px;
+}
+
+#dviText {
+	padding-top: 50px;
+}
+
+/* About Page ID Attributes*/
+#brooke {
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+#cassidy, #elaina, #molly, #skye {
+	padding-bottom: 20px;
+}
+
+/* Policy Page ID Attributes*/
+#national, #stats, #cj, #scarlet {
+	padding-top: 50px;
+}
+
+.subhead {
+	font-family: 'Coming Soon', cursive;
+	font-size: 22px;
+	font-weight: 600;
+}
+/* Hearing Page ID Attributes*/
+
+/* Vision Page ID Attributes*/
+#scarletPic {
+	padding-bottom: 20px;
+}
